@@ -27,8 +27,8 @@ Guía completa de comandos Nmap para auditorías de seguridad y escaneo de redes
 
 🤝 Contribuciones
 
-¡Las contribuciones son bienvenidas! Por favor lee CONTRIBUTING.md para más detalles.
+¡Las contribuciones son bienvenidas! Por favor lee [CONTRIBUTING.md](https://github.com/Sombrawow/nmap-cheat-sheet/blob/main/CONTRIBUTING.md) para más detalles.
 
 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT - ver LICENSE para más detalles.
+Este proyecto está bajo la Licencia MIT - ver [LICENSE](https://github.com/Sombrawow/nmap-cheat-sheet/blob/main/LICENSE) para más detalles.
