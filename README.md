@@ -1,4 +1,4 @@
-# 🔍 [![Logo Nmap](https://nmap.org/images/nmap-logo.png)] Nmap Cheat Sheet
+# 🔍  Nmap Cheat Sheet
 
 Guía completa de comandos Nmap para auditorías de seguridad y escaneo de redes.
 
