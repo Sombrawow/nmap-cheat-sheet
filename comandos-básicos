@@ -1,0 +1,16 @@
+## 🚀 Comandos Básicos
+
+```bash
+# Escaneo básico
+nmap [target]
+
+# Escaneo con verbosidad
+nmap -v [target]
+
+# Escaneo con razón
+nmap --reason [target]
+
+# Guardar resultados
+nmap -oN output.txt [target]
+nmap -oX output.xml [target]
+nmap -oA output [target]  # Todos los formatos

@@ -1,0 +1,10 @@
+## 📊 Salida y Reportes
+
+# Formatos de salida
+nmap -oN normal.txt [target]
+nmap -oX xml.xml [target]
+nmap -oG grepable.txt [target]
+nmap -oA all_formats [target]
+
+# Convertir XML a HTML
+xsltproc scan.xml -o report.html

@@ -1,0 +1,21 @@
+## 🥷 Escaneo Evadido
+
+# Timing templates (0-5)
+nmap -T0 [target]  # Paranoid (muy lento)
+nmap -T1 [target]  # Sneaky
+nmap -T2 [target]  # Polite
+nmap -T3 [target]  # Normal (default)
+nmap -T4 [target]  # Aggressive
+nmap -T5 [target]  # Insane (muy rápido)
+
+# Fragmentación de paquetes
+nmap -f [target]
+
+# Cambiar MTU
+nmap --mtu 24 [target]
+
+# Spoof de MAC
+nmap --spoof-mac [MAC] [target]
+
+# Decoy (esconder entre otros)
+nmap -D RND:10 [target]

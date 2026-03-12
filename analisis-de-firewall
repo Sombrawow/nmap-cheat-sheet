@@ -1,0 +1,10 @@
+## 🧱 Análisis de firewall
+
+# ACK scan (mapeo de firewall)
+nmap -sA [target]
+
+# Window scan
+nmap -sW [target]
+
+# Idle scan (sin conexión directa)
+nmap -sI zombie_host [target]

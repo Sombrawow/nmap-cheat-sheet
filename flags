@@ -1,0 +1,13 @@
+## 🚩 Flags Más Usados
+
+| Flag | Descripción |
+| -sS | TCP SYN scan |
+| -sV | Detección de versiones |
+| -O | Detección de SO |
+| -p | Puertos específicos |
+| -p- | Todos los puertos |
+| -T4 | Timing agresivo |
+| -v | Verbosidad |
+| -A | Escaneo agresivo |
+| -sC | Scripts por defecto|
+|----------|-------------|

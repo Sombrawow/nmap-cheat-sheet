@@ -1,0 +1,13 @@
+## 🔍 Detección de Servicios y SO
+
+# Detección de versiones
+nmap -sV [target]
+
+# Detección de sistema operativo
+nmap -O [target]
+
+# Agresivo (SO + versiones + scripts)
+nmap -A [target]
+
+# Detección intensa
+nmap -sV -sC -O -T4 [target]

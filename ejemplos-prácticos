@@ -1,0 +1,21 @@
+## 💡 Ejemplos Prácticos
+
+# Escaneo rápido de red local
+nmap -sn 192.168.1.0/24
+
+# Encontrar hosts activos
+nmap -sP 192.168.1.0/24
+
+# Escaneo de vulnerabilidades básicas
+nmap -sV --script=vuln [target]
+
+# Escaneo web completo
+nmap -p 80,443 -sV --script=http-title,http-headers,ssl-enum-ciphers [target]
+
+# Escaneo de firewall
+nmap -sA [target]
+
+# Escaneo NULL, FIN, XMAS
+nmap -sN [target]  # NULL scan
+nmap -sF [target]  # FIN scan
+nmap -sX [target]  # XMAS scan

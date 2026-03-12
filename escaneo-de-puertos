@@ -1,0 +1,18 @@
+## 🔌 Escaneo de Puertos
+
+# Escanear puertos específicos
+nmap -p 80,443,22 [target]
+nmap -p 1-1000 [target]
+nmap -p- [target]  # Todos los puertos (1-65535)
+
+# Escaneo TCP SYN (por defecto)
+nmap -sS [target]
+
+# Escaneo TCP Connect
+nmap -sT [target]
+
+# Escaneo UDP
+nmap -sU [target]
+
+# Escaneo de puertos más comunes
+nmap --top-ports 100 [target]

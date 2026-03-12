@@ -1,0 +1,22 @@
+## 📜 Scripts NSE (Nmap Scripting Engine)
+
+# Scripts por categoría
+nmap --script=default [target]
+nmap --script=safe [target]
+nmap --script=vuln [target]
+nmap --script=discovery [target]
+nmap --script=auth [target]
+
+# Scripts específicos
+nmap --script=http-title [target]
+nmap --script=ssl-enum-ciphers [target]
+nmap --script=smb-os-discovery [target]
+
+# Actualizar scripts
+nmap --script-updatedb
+
+# Verificar SSL/TLS débil
+nmap --script ssl-enum-ciphers -p 443 [target]
+
+# Verificar HTTP methods inseguros
+nmap --script http-methods [target]

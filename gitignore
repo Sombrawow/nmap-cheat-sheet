@@ -1,0 +1,17 @@
+## gitignore
+
+# Archivos de salida de Nmap
+*.xml
+*.gnmap
+*.nmap
+*.txt
+scan_*
+output_*
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
